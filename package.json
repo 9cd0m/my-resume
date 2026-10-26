@@ -1,0 +1,20 @@
+{
+  "name": "resume-site",
+  "version": "0.0.0",
+  "private": true,
+  "hexo": {
+    "version": "7.3.0"
+  },
+  "scripts": {
+    "clean": "hexo clean",
+    "build": "hexo generate",
+    "server": "hexo server"
+  },
+  "dependencies": {
+    "hexo": "7.3.0",
+    "hexo-generator-index": "^4.0.0",
+    "hexo-renderer-marked": "^7.0.1",
+    "hexo-renderer-pug": "^3.0.0",
+    "hexo-server": "^3.0.0"
+  }
+}

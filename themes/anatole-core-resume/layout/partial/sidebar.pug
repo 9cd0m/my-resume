@@ -1,0 +1,45 @@
+.sidebar.animated.fadeInDown
+  .side-content
+    .logo-title
+      .title
+        img(src= url_for('images/logo@2x.png'),style="width:127px;")
+        h3(title="")
+          a(href="/")= config.title
+
+    ul.social-links
+      //- 下面两条是写死在模板里的，改这里才会显示你的电话和城市
+      //- These two entries are hard-coded in the template, edit them here.
+
+      li
+        i.fa.fa-phone
+        | 138-0000-0000
+
+      li
+        i.fa.fa-address-card
+        | 北京 · 可远程
+
+      if theme.github
+        li
+          a(href=theme.github)
+            i.fa.fa-github
+            | github.com/你的用户名
+
+      if theme.linkedin
+        li
+          a(href=theme.linkedin)
+            i.fa.fa-linkedin
+            | linkedin.com/in/你的ID
+
+      if theme.mail
+        li
+          a(href=theme.mail)
+            i.fa.fa-envelope
+            | 你的邮箱@example.com
+
+      if theme.QQ
+        li
+          a(href= theme.QQ)
+            i.fa.fa-qq
+            | xxx
+
+  include footer

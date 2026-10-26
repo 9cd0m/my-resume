@@ -1,0 +1,99 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# ============ Site 站点信息 ============
+# 这三行会出现在浏览器标签、搜索结果和侧栏
+title: 你的名字
+subtitle: 计算机科学与技术 · 本科在读
+description: 你的名字的在线简历：项目经历、技能与技术笔记
+keywords: 简历,计算机,前端,项目复盘
+author: 你的名字
+# 主题只带 en-us 语言包，zh-CN 会让"上一篇/下一篇"回退到 Hexo 内置中文
+language: zh-CN
+timezone: 'Asia/Shanghai'
+
+# ============ URL 地址 ============
+# 用户站：url 不带结尾斜杠，root 就是 /
+## 如果以后改成项目站（仓库名不是 用户名.github.io），root 要写成 /仓库名/
+url: https://你的用户名.github.io
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true
+  trailing_html: true
+
+# ============ Directory 目录 ============
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# ============ Writing 写作 ============
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+syntax_highlighter: highlight.js
+highlight:
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+# ============ Home page 首页 ============
+# per_page: 0 = 不分页，所有简历章节一次全展开
+# order_by: date = 按日期升序，日期在这里只当排序号用
+index_generator:
+  path: ''
+  per_page: 0
+  order_by: date
+
+# ============ Category & Tag ============
+default_category: uncategorized
+category_map:
+tag_map:
+
+# ============ Metadata ============
+meta_generator: true
+
+# ============ Date / Time ============
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+updated_option: 'mtime'
+
+# ============ Pagination 分页 ============
+per_page: 0
+pagination_dir: page
+
+# ============ Include / Exclude ============
+include:
+exclude:
+ignore:
+
+# ============ Extensions 扩展 ============
+## 主题目录名，必须和 themes/ 下的文件夹名完全一致
+theme: anatole-core-resume
+
+# ============ Deployment 部署 ============
+## 用 GitHub Actions 发布，这里留空，不需要 hexo-deployer-git
+deploy:
+  type: ''
