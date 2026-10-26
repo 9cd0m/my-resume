@@ -14,10 +14,9 @@ language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # ============ URL 地址 ============
-# 用户站：url 不带结尾斜杠，root 就是 /
-## 如果以后改成项目站（仓库名不是 用户名.github.io），root 要写成 /仓库名/
-url: https://9cd0m.github.io
-root: /
+# 项目站：仓库名不是 用户名.github.io，url 带仓库名，root 要写成 /仓库名/
+url: https://9cd0m.github.io/my-resume
+root: /my-resume/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:

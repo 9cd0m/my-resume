@@ -12,7 +12,7 @@ if page.keywords
 else
     meta(name="keywords" content= theme.keywords)
 
-link(rel="icon", href="images/favicon.ico")
+link(rel="icon", href=url_for('images/favicon.ico'))
 
 meta(content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",name="viewport")
 meta(content="yes",name="apple-mobile-web-app-capable")
@@ -23,5 +23,5 @@ meta(name="renderer",content="webkit")
 link(rel="stylesheet", href= url_for('css/style.css'))
 link(rel="stylesheet", href= url_for('css/blog_basic.css'))
 link(rel="stylesheet", href= url_for('css/font-awesome.min.css'))
-link(rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml")
+link(rel="alternate" type="application/atom+xml" title="ATOM 1.0" href=url_for('/atom.xml'))
 script(src= url_for('js/jquery.js'))
