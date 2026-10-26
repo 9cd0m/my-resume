@@ -2,7 +2,7 @@
 
 一个「简历为主体、技术笔记为附录」的个人站点。
 
-- 首页 = 简历：教育背景 → 技能 → 项目经历 → 荣誉与证书 → 技术笔记
+- 首页 = 简历：教育背景 → 技能 → 荣誉与证书 → 技术笔记
 - 顶部导航由 `source/_posts/` 里的文章标题自动生成（点一下滚动到对应章节）
 - 技术笔记放在 `source/notes/`，用 `layout: page`，不会铺在首页正文里
 - 部署：推送到 `main` 分支，GitHub Actions 自动构建并发布
@@ -18,15 +18,11 @@
 | `source/notes/**/index.md` | 技术笔记（独立页面） |
 | `.github/workflows/pages.yml` | 自动部署工作流 |
 
-## 上线前必须替换的占位符
+## 待补充
 
-全局搜索这几个词，一个都别留：
-
-- `你的名字` —— `_config.yml`、`themes/anatole-core-resume/_config.yml`
-- `你的用户名` —— `_config.yml` 的 `url`、主题 `_config.yml` 的 `github`、`sidebar.pug`
-- `你的邮箱` —— 主题 `_config.yml`、`sidebar.pug`
-- `138-0000-0000`、`北京 · 可远程` —— `sidebar.pug`
-- `某某大学`、`xxx` —— 各篇文章正文
+- **项目经历**：`source/_posts/项目经历.md` 已删除（原内容是模板虚构的）。写好真实项目后新建该文件即可，首页顺序由 front-matter 里的 `date` 决定（`2025-01-03` 正好排在教育背景和荣誉之间）。
+- **电话 / 城市**：`sidebar.pug` 里那两条 `li` 仍是注释状态，填好后取消注释即可上侧栏。
+- **简历正文**：各篇内容基于就业推荐表填写，真实项目、成绩、比赛获奖自行补充。
 
 ## 本地开发
 
@@ -40,7 +36,7 @@ npx hexo server      # http://localhost:4000
 
 ```bash
 git add .
-git commit -m "content: 更新项目经历"
+git commit -m "content: 更新技能"
 git push
 ```
 
