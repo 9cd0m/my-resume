@@ -10,19 +10,20 @@
       //- 下面两条是写死在模板里的，改这里才会显示你的电话和城市
       //- These two entries are hard-coded in the template, edit them here.
 
-      li
-        i.fa.fa-phone
-        | 138-0000-0000
-
-      li
-        i.fa.fa-address-card
-        | 北京 · 可远程
+      //- TODO: 补上真实电话/城市后,把下面两个 li 取消注释即可上侧栏
+      //- li
+      //-   i.fa.fa-phone
+      //-   | 你的电话
+      //-
+      //- li
+      //-   i.fa.fa-address-card
+      //-   | 城市 · 可远程
 
       if theme.github
         li
           a(href=theme.github)
             i.fa.fa-github
-            | github.com/你的用户名
+            | github.com/9cd0m
 
       if theme.linkedin
         li
@@ -34,12 +35,12 @@
         li
           a(href=theme.mail)
             i.fa.fa-envelope
-            | 你的邮箱@example.com
+            | chen42889606@qq.com
 
       if theme.QQ
         li
           a(href= theme.QQ)
             i.fa.fa-qq
-            | xxx
+            | QQ
 
   include footer

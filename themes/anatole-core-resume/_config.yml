@@ -1,7 +1,7 @@
 # 博客配置 | Blog Configuration
 # keywords:
-author: 你的名字
-# description:
+author: 陈培炎
+description: 陈培炎的在线简历：教育背景、技能、项目经历与技术笔记
 
 # 如需修改 icon，请替换 source/images/favicon.ico 文件
 # If you want to change the icon, please replace the source/images/favicon.ico file
@@ -10,11 +10,11 @@ copyright: 2026
 
 # 个人信息 | Personal Information
 # 这里会被写进浏览器标题：<name>'s Resume
-name: 你的名字
+name: 陈培炎
 
 # 社交账号 | Social Account
 # 留空（冒号后什么都不写）则侧栏不显示该项
-github: https://github.com/你的用户名
-mail: mailto:你的邮箱@example.com
+github: https://github.com/9cd0m
+mail: mailto:chen42889606@qq.com
 linkedin:
 # QQ: http://sighttp.qq.com/authd?IDKEY=xxx

@@ -4,11 +4,11 @@
 
 # ============ Site 站点信息 ============
 # 这三行会出现在浏览器标签、搜索结果和侧栏
-title: 你的名字
+title: 陈培炎的简历
 subtitle: 计算机科学与技术 · 本科在读
-description: 你的名字的在线简历：项目经历、技能与技术笔记
+description: 陈培炎的在线简历：项目经历、技能与技术笔记
 keywords: 简历,计算机,前端,项目复盘
-author: 你的名字
+author: 陈培炎
 # 主题只带 en-us 语言包，zh-CN 会让"上一篇/下一篇"回退到 Hexo 内置中文
 language: zh-CN
 timezone: 'Asia/Shanghai'
@@ -16,7 +16,7 @@ timezone: 'Asia/Shanghai'
 # ============ URL 地址 ============
 # 用户站：url 不带结尾斜杠，root 就是 /
 ## 如果以后改成项目站（仓库名不是 用户名.github.io），root 要写成 /仓库名/
-url: https://你的用户名.github.io
+url: https://9cd0m.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
